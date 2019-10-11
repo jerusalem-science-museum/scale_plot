@@ -1,9 +1,15 @@
+import os.path
+
 TIME_FOR_PLOT_PER_SEC = 300 # time (sec) for plotupadte rate calculation
 NUM_OF_PLOT_POINTS = 100 # number of point to plot
 
 NUM_OF_UPDATE_POINT = 3 #number of points updated befour move plot 
 
 TIME_SAFE_MARGINE = 1.1 #aditional time to make sure  
+
+
+RES_PATH = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(
+    os.path.realpath(__file__))), 'res', 'dragon'))
 
 
 MOUSE_VISIBE = False

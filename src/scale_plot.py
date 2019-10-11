@@ -21,14 +21,14 @@ number_of_points = constants.NUM_OF_PLOT_POINTS
 
 images = []
 #frames =[]
-#current_frame = 0 
-current_image = 0 
+#current_frame = 0
+current_image = 0
 
 def fill_images():
     global images
     del images[:]
     for j in range(constants.NUMBER_OF_IMAGES):
-        images.append(pygame.image.load('../res/dragon/image_'+str(j)+'.png'))
+        images.append(pygame.image.load(constants.RES_PATH + '/image_' + str(j) + '.png'))
     print (images)
 
 
@@ -171,8 +171,8 @@ pygame.init()
 clock = pygame.time.Clock()
 infoObject = pygame.display.Info()
 # load and set the logo
-logo = pygame.image.load('icon.png')
-pygame.display.set_icon(logo)
+# logo = pygame.image.load('icon.png')
+# pygame.display.set_icon(logo)
 pygame.display.set_caption('in case of problem call amir 972-542406559') 
 # define image and plot area surfaces on screen
 main_screen = pygame.display.set_mode((infoObject.current_w, infoObject.current_h))
