@@ -45,16 +45,16 @@ IMAGE_X_Y = (0,0)
 IMAGE_W = 600
 IMAGE_H = 1000
 
-PICTURE_X = 50 #  upper left image X position 
-PICTURE_Y = 400 #  upper left image Y position
+PICTURE_X = 0 # upper left image X position
+PICTURE_Y = 400 # upper left image Y position
 DH = 40 # delta Y for up/dn image acording to value
 
 #P_A = plot area
 # F = frame, C = color, T = thick
-P_A_X = 650
-P_A_Y = 100
-P_A_W = 1200
-P_A_H = 800
+P_A_X = 600
+P_A_Y = 50
+P_A_W = 700
+P_A_H = 650
 P_A_F_C = (0,0,0)
 P_A_F_T = 3
 P_A_C = (255,255,255)
