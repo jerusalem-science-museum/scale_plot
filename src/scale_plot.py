@@ -28,7 +28,7 @@ def fill_images():
     global images
     del images[:]
     for j in range(constants.NUMBER_OF_IMAGES):
-        images.append(pygame.image.load('./images/image_'+str(j)+'.png'))
+        images.append(pygame.image.load('../res/dragon/image_'+str(j)+'.png'))
     print (images)
 
 
