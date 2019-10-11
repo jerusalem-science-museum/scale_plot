@@ -219,7 +219,9 @@ pygame.display.flip()
 
 
 running = True
- 
+
+pygame.mouse.set_cursor((8,8),(0,0),(0,0,0,0,0,0,0,0),(0,0,0,0,0,0,0,0))
+
 # main loop
 while running:
     t_plot_update = time.time()
